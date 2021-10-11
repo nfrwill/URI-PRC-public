@@ -1,0 +1,12 @@
+#include<stdio.h>
+                int main(){
+         int A, B, C = 0;
+  
+        for(A =1; A <= 5; A++){
+                            scanf("%d", &B);
+              if(B % 2 == 0){
+                    C += 1;
+              }
+         }
+          printf("%d valores pares\n", C);
+                   }
